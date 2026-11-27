@@ -1,0 +1,2 @@
+validation_rmsle,validation_rows,underpredicted_count,overpredicted_count,mean_residual,mean_absolute_residual,median_absolute_residual,best_iteration
+0.690732620128201,900,436,464,0.008522817327187791,0.5270311193869405,0.4199439819789873,1136
