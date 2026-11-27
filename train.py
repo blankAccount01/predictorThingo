@@ -27,7 +27,10 @@ device = torch.device("cpu")
 
 data = pd.read_csv("train.csv")
 
-X = data.drop(columns=["project_id", "hours_spent"])
+X = data.drop(
+    columns=["project_id", "hours_spent", "log_hours", "hours_bucket"], #no log hours
+    errors="ignore"
+)
 y = np.log1p(data["hours_spent"])
 
 
