@@ -10,3 +10,8 @@
 - Model didn't perform significantly better for categories, ratios and operations.
 - Configurations only improved it marginally by <1%
 - Doing operations of variables is bad cause it is highly dependent on the data you select, so not very reliable.
+
+# How to run
+- You need python3, catboost, pandas and numpy
+- add train.csv and test.csv 
+- run predict.py in the same directory
