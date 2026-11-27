@@ -128,9 +128,9 @@ submission = pd.DataFrame({
 })
 
 submission.to_csv(
-    "submission.csv",
+    "predictions.csv",
     index=False
 )
 
 print(submission.head())
-print("\nSaved submission.csv")
+print("\nSaved predictions.csv")
